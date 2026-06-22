@@ -17,6 +17,11 @@ CSS (Cascading Style Sheets) adalah bahasa untuk **mendekorasi tampilan website*
 - ✅ Responsive design (tampil bagus di HP & desktop)
 - ✅ Animasi dan efek visual yang keren
 
-## Daftar Materi
+---
 
-Pilih topik dari sidebar kiri 👈
+## TABLE OF CONTENTS
+
+{% assign children = site.pages | where: "parent", page.title | sort: "nav_order" %}
+{% for child in children %}
+- [{{ child.title }}]({{ child.url | relative_url }})
+{% endfor %}
