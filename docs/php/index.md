@@ -21,6 +21,11 @@ PHP adalah bahasa pemrograman yang berjalan di **server-side** dan sangat popule
 
 Gunakan **PHP 8.1+** untuk fitur modern.
 
-## Daftar Materi
+---
 
-Pilih topik dari sidebar kiri 👈
+## TABLE OF CONTENTS
+
+{% assign children = site.pages | where: "parent", page.title | sort: "nav_order" %}
+{% for child in children %}
+- [{{ child.title }}]({{ child.url | relative_url }})
+{% endfor %}
