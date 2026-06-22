@@ -23,6 +23,11 @@ Gunakan **Python 3.10+** (jangan Python 2, sudah deprecated).
 
 Download di: [python.org](https://www.python.org/downloads/)
 
-## Daftar Materi
+---
 
-Pilih topik dari sidebar kiri 👈
+## TABLE OF CONTENTS
+
+{% assign children = site.pages | where: "parent", page.title | sort: "nav_order" %}
+{% for child in children %}
+- [{{ child.title }}]({{ child.url | relative_url }})
+{% endfor %}
