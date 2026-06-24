@@ -1,5 +1,5 @@
-# Bale Tech Docs
+# Bale Otomotif Docs
 
-Catatan & Referensi Cepat Python, PHP, JavaScript, CSS untuk Pemula Indonesia.
+Referensi Cepat & Panduan Otomotif — Mobil, Motor, Perawatan, dan Tips Berkendara untuk Pecinta Kendaraan Indonesia.
 
 > https://balenetizien.github.io/bale-tech-docs
